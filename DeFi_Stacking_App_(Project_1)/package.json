@@ -1,0 +1,22 @@
+{
+  "name": "defi",
+  "version": "1.0.0",
+  "description": "DeFi Staking DApp with Solidity smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network hardhat"
+  },
+  "keywords": ["defi", "staking", "ethereum", "solidity", "hardhat"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.0",
+    "hardhat": "2.26.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "dotenv": "16.4.5"
+  }
+}
